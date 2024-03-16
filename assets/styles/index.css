@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Allura";
+  src: url(../fonts/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  color: #eee;
+}
+
+body {
+  background: url(../img/1.jpg) fixed center/cover;
+  text-align: center;
+  max-width: 2300px;
+  margin: 0 auto;
+  font-family: Roboto, serif;
+}
+
+header {
+  width: 85%;
+  margin: 0 auto;
+  padding: 25px;
+  height: 1100px;
+}
+header .section1 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  font-family: Roboto, serif;
+  background: #eee;
+  width: 100%;
+}
+header .section1 .left-part {
+  text-align: left;
+  letter-spacing: 1px;
+  max-width: 85%;
+  margin: 25px auto;
+}
+header .section1 .left-part h1 {
+  border-bottom: 2px solid rgb(61, 56, 56);
+  font-size: 1.9rem;
+}
+header .section1 .left-part #p1 {
+  margin: 5px auto 0;
+}
+header .section1 .left-part #p2 {
+  margin: 0 auto 25px;
+  padding: 0 auto 25px;
+}
+header .section1 .left-part h2 {
+  border-bottom: 2px solid rgb(61, 56, 56);
+}
+header .section1 .left-part #A-propos-de-moi {
+  margin: 25px auto;
+}
+header .section1 .left-part p {
+  margin: 25px auto;
+  font-size: 1.3rem;
+}
+header .section1 .left-part #Expérience-professionnelles {
+  margin: 0 auto 25px;
+}
+header .section1 .left-part h3 {
+  margin: 25px auto;
+}
+header .section1 .left-part #Animateur {
+  margin: 25px auto;
+}
+header .section1 .right-part {
+  background: rgb(233, 233, 233);
+  padding: 0 25px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+header .section1 .right-part #photo {
+  text-align: center;
+}
+header .section1 .right-part img {
+  margin: 25px auto 0;
+  border-radius: 350px;
+}
+header .section1 .right-part h3 {
+  margin: 25px auto 15px;
+}
+header .section1 .right-part i {
+  margin: 5px auto;
+}
+header .section1 .right-part p {
+  letter-spacing: 1px;
+}/*# sourceMappingURL=index.css.map */

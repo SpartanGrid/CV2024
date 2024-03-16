@@ -1,0 +1,81 @@
+header {
+
+  width: 85%;
+  // height: 100%;
+  margin: 0 auto ;
+  padding: 25px;
+  height: 1100px;
+  
+  .section1 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    font-family: $font3;
+    background: $white;
+    width: 100%;
+    .left-part {
+      text-align: left;
+      letter-spacing: 1px;
+      max-width: 85%;
+      margin: 25px auto;
+      
+      h1 {
+        border-bottom: 2px solid rgb(61 56 56);
+        font-size: 1.9rem;
+      }
+      #p1 {
+        margin: 5px auto 0;
+      }
+      #p2 {
+        margin: 0 auto 25px;
+        padding: 0 auto 25px;
+      }
+      h2 {
+        border-bottom: 2px solid rgb(61 56 56);
+      }
+      #A-propos-de-moi {
+        margin: 25px auto;
+      } 
+      p {
+        margin: 25px auto;
+        font-size: 1.3rem;
+      }
+      #Expérience-professionnelles {
+        margin: 0 auto 25px;
+      }
+      h3 {
+        margin: 25px auto;
+      }
+      #Animateur {
+        margin: 25px auto;
+      }
+    }
+    // @include alignChildren(space-around);
+    // @include alignChildren(space-between);
+    // @include childCenter;
+    
+    .right-part {
+      background: $grey2;
+      padding: 0 25px;
+      text-align: left;
+      letter-spacing: 1px;
+      
+      #photo {
+        text-align: center;
+      }
+      img {        
+        margin: 25px auto 0;
+        border-radius: 350px;
+      }
+      h3 {
+        margin: 25px auto 15px;
+      }
+      i {       
+        margin: 5px auto;
+      }
+      p {
+        letter-spacing: 1px;
+        
+      }
+    }
+  }
+}
